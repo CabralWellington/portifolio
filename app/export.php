@@ -3,11 +3,11 @@
         <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Exportação de relatórios</h3> </div>
+                    <h3 class="text-primary">Relatórios</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Exportação de relatórios</li>
+                        <li class="breadcrumb-item active">Relatórios</li>
                     </ol>
                 </div>
             </div>
@@ -22,7 +22,8 @@
                                 <div class="card-body">
                                 <form action="#">
                                     <div class="form-body">
-                                        <h3 class="card-title m-t-15">Person Info</h3>
+                                        <h3 class="card-title m-t-15">Pesquisar</h3>
+                                        <h6 class="card-subtitle">For multiple file upload put class <code>.dropzone</code> to form.</h6>
                                         <hr>
                                         <div class="row p-t-20">
                                         <div class="col-md-6">
@@ -39,7 +40,7 @@
                                             <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Date of Birth</label>
+                                                    <label class="control-label">Data inicial</label>
                                                     <input type="date" class="form-control" placeholder="dd/mm/yyyy">
                                                 </div>
                                             </div>
@@ -49,17 +50,19 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                             <div class="form-group">
-                                                <label class="control-label">Gender</label>
+                                                <label class="control-label">Técnico</label>
                                                     <select class="form-control custom-select">
-                                                        <option value="">Male</option>
-                                                        <option value="">Female</option>
+                                                        <option value="">-Todos-</option>
+                                                        <option value="">Técnico 1</option>
+                                                        <option value="">Técnico 2</option>
+                                                        <option value="">Técnico 3</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Date of Birth</label>
+                                                    <label class="control-label">Data final</label>
                                                     <input type="date" class="form-control" placeholder="dd/mm/yyyy">
                                                 </div>
                                             </div>
@@ -70,8 +73,8 @@
                                         
                                     </div>
                                     <div class="form-actions">
-                                        <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
-                                        <button type="button" class="btn btn-inverse">Cancel</button>
+                                        <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Perquisar</button>
+                                        <button type="button" class="btn btn-inverse">Cancelar</button>
                                     </div>
                                 </form>
                             </div>
@@ -81,13 +84,15 @@
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Dropzone</h4>
+                                <h4 class="card-title">Upload</h4>
                                 <h6 class="card-subtitle">For multiple file upload put class <code>.dropzone</code> to form.</h6>
                                 <form action="#" class="dropzone">
                                     <div class="fallback">
                                         <input name="file" type="file" multiple />
+                                        
                                     </div>
                                 </form>
+                                
                             </div>
                         </div>
                     </div>

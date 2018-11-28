@@ -1,5 +1,5 @@
 <?php 
 
-$_sitepath_ = 'http://localhost/app/app'; 
+$_sitepath_ = 'http://192.168.0.67/app/app'; 
 
 ?>

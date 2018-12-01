@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt">
 
+<?php
+require_once ("Config\config.php");
+?>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +25,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="Config/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="Config/css/lib/dropzone/dropzone.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
@@ -90,18 +95,11 @@
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
                         <li class="nav-label">Home</li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-home"></i><span class="hide-menu">Home<span class="label label-rouded label-primary pull-right">2</span></span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.html">Ecommerce </a></li>
-                                <li><a href="index1.html">Analytics </a></li>
-                            </ul>
+                        <li> <a class="collapse" href="<?php echo$_sitepath_?>" aria-expanded="false"><i class="fas fa-home"></i><span class="hide-menu">Home<span class="label label-rouded label-primary pull-right">2</span></span></a>
                         </li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-envelope"></i><span class="hide-menu">Email</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="email-compose.html">Compose</a></li>
-                                <li><a href="email-read.html">Read</a></li>
-                                <li><a href="email-inbox.html">Inbox</a></li>
-                            </ul>
+                        <li> <a class="collapse" href="export.php" aria-expanded="false"><i class="far fa-file-pdf"></i><span class="hide-menu">Relatórios<span class="label label-rouded label-primary pull-right">2</span></span></a>
+                        </li>
+                        <li> <a class="collapse" href="upload.php" aria-expanded="false"><i class="fas fa-file-upload"></i><span class="hide-menu">Enivar Arquivos<span class="label label-rouded label-primary pull-right">2</span></span></a>
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-bar-chart"></i><span class="hide-menu">Charts</span></a>
                             <ul aria-expanded="false" class="collapse">

@@ -17,12 +17,12 @@
                 <!-- Start Page Content -->
                 <div class="row">
                     <!-- Start Select date and type -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="card card-outline-primary">
                                 <div class="card-body">
                                 <form action="#">
                                     <div class="form-body">
-                                        <h3 class="card-title m-t-15">Pesquisar</h3>
+                                        <h3 class="card-title">Pesquisar</h3>
                                         <h6 class="card-subtitle">For multiple file upload put class <code>.dropzone</code> to form.</h6>
                                         <hr>
                                         <div class="row p-t-20">
@@ -81,22 +81,6 @@
                         </div>
                     </div>
                     <!-- End Select date and type -->
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Upload</h4>
-                                <h6 class="card-subtitle">For multiple file upload put class <code>.dropzone</code> to form.</h6>
-                                <form action="#" class="dropzone">
-                                    <div class="fallback">
-                                        <input name="file" type="file" multiple />
-                                        
-                                    </div>
-                                </form>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
                     <!-- Start Report -->
                     <div class="col-lg-12">
                         <div class="card">
@@ -104,7 +88,7 @@
                                 <h4 class="card-title">Exportação de relatórios - Pontos Bonificação</h4>
                                 <h6 class="card-subtitle">Exporte os dados para Área de transferência, CSV, Excel, PDF & Impressão</h6>
                                 
-                                <div class="table-responsive m-t-40">
+                                <div class="table-responsive">
                                     <table id="example23" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
